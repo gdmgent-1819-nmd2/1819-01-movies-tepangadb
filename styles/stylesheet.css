@@ -89,11 +89,16 @@ button{
         position: absolute;
         bottom: 0;
         margin-bottom: 2em;
-        width: 38.5em;
+        width: 36em;
     }
     
 }
 
 .margin{
     margin-top: 0;
+}
+
+.bg-secondary {
+    background-color: #FFF !important;
+    color: #273152;
 }
