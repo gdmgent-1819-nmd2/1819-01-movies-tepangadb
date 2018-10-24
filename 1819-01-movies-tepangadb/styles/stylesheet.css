@@ -1,8 +1,5 @@
-
-
 p{
-     font-family: Arial, Helvetica, sans-serif;
-     font-size: 12pt; 
+     font-size: 11pt; 
 }
 
 p.blue{
@@ -22,6 +19,7 @@ h3{
     font-family: 'Oswald', sans-serif;
     font-size: 14pt;
     color: #707070;
+    margin-bottom: 1em;
 }
 
 h2{
@@ -58,6 +56,14 @@ button{
     color: #273152;
 }
 
+.btn-light{
+    margin-bottom: 1em;
+    margin-top: 1em;
+    color: white;
+    background-color: #273152;
+    border-color: white;
+}
+
 .btn-dark {
     background-color:white;
     color: black;
@@ -75,4 +81,19 @@ button{
 
 .blauw {
     color: #273152;
+}
+
+@media (min-width: 768px) {
+    .btn {
+        font-family: 'PT Sans', sans-serif;
+        position: absolute;
+        bottom: 0;
+        margin-bottom: 2em;
+        width: 38.5em;
+    }
+    
+}
+
+.margin{
+    margin-top: 0;
 }
