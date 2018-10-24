@@ -17,29 +17,40 @@
 </head>
 
 <body>
-    <div class="jumbotron-fluid">
+    <!--Jumbotron-->
+    <div class="jumbotron-fluid d-none d-sm-block">
         <img src="./images/Banner.png" class="img-fluid">
     </div>
- 
+    <div class="jumbotron-fluid d-md-none">
+        <!--NIEUWE BANNER MAKEN HIERVOOR!!!!!-->
+        <img src="./images/Banner.png" class="img-fluid">
+    </div>
+
+    <!--Begin films-->
     <div class="container-fluid ">
-        <!-- begin textbox 1.1 -->
+        <!-- begin textbox 1-->
         <div class="row justify-content-end">
             <div class="col-12 col-md-11">
                 <article>
                 <div class="row">
-                    <div class="col-12 col-md-5">
+                    <!--Foto groot scherm-->
+                    <div class="col-12 col-md-5 d-none d-sm-block">
                         <img src="./images/Intouchables.jpg" class="img-fluid float-right height" alt="Intouchables">
                     </div>
+                    <!--Foto klein scherm-->
+                    <div class="col-12 d-md-none">
+                        <img src="./images/Intouchables.jpg" class="img-fluid mx-auto d-block small" alt="Intouchables">
+                    </div>
                     <div class="col-md-6 col-12 txt">
-                        <h2>Intouchables</h2>
+                        <h2 class="blauw">Intouchables</h2>
                         <h3>2011     112 min     Komedie</h3>
 
                         <p>Miljonair Philippe is aan een rolstoel gekluisterd. In hartje Parijs woont hij in een kast van een huis. Driss woont daar ver vandaan, in een van de grimmige voorsteden. Verdient de jonge Senegalees zijn geld niet met schimmige zaakjes, dan trekt hij wel een uitkering. Maar wie bijstand wil, moet solliciteren. Plotseling zit Driss met een echte baan opgescheept, als persoonlijke verzorger van Philippe. Met zijn tomeloze energie zet hij Philippe's stijve huishouden binnen de kortste keren op z'n kop. Maar ook Driss' leven zal nooit meer hetzelfde zijn.</p>
                     
-                        <h4>Regisseur: Olivier Nakache, Eric Toledano</h4>
-                        <h4>Hoofdrollen: Omar Sy, Francois Cluzet</h4>
-                    
-                        <button type="button" class="btn btn-dark float-right">Nu kopen</button>
+                        <h4 class="blauw">Regisseur: Olivier Nakache, Eric Toledano</h4>
+                        <h4 class="blauw">Hoofdrollen: Omar Sy, Francois Cluzet</h4>
+                        <button type="button" class="btn btn-dark float-right d-none d-sm-block">Nu kopen</button>
+                        <button type="button" class="btn btn-dark btn-block float-right d-md-none">Nu kopen</button>
                     </div>
                 </div>
                 </article>
@@ -51,6 +62,10 @@
             <div class="col-12 col-md-11">
                 <article>
                     <div class="row">
+                        <!--Foto bovenaan klein scherm-->
+                        <div class="col-12 col-md-5 d-md-none">
+                            <img src="./images/theboyinthestripedpajamas.png" class="img-fluid mx-auto d-block small" alt="The Boy in the Striped Pajamas">
+                        </div>
                         <div class="col-12 col-md-6 txt">
                             <h2>The Boy in the Striped Pajamas</h2>
                             <h3>2008     94 min     Drama</h3>
@@ -61,7 +76,7 @@
                             <h4>Hoofdrollen: Asa Butterfield, David Thewlis</h4>
                             <button type="button" class="btn btn-light float-right">Nu kopen</button>
                         </div>
-                        <div class="col-12 col-md-5">
+                        <div class="col-12 col-md-5 d-none d-sm-block">
                             <img src="./images/theboyinthestripedpajamas.png" class="img-fluid float-left height" alt="The Boy in the Striped Pajamas">
                         </div>
                     </div>
@@ -73,17 +88,23 @@
             <div class="col-12 col-md-11">
                 <article>
                 <div class="row">
-                    <div class="col-12 col-md-5">
+                    <!--Foto groot scherm-->
+                    <div class="col-12 col-md-5 d-none d-sm-block">
                         <img src="./images/loverosie.jpg" class="img-fluid float-right height" alt="Love, Rosie">
                     </div>
+                    <!--Foto klein scherm-->
+                    <div class="col-12 col-md-5 d-md-none">
+                            <img src="./images/loverosie.jpg" class="img-fluid mx-auto d-block small" alt="Love, Rosie">
+                    </div>
+
                     <div class="col-12 col-md-6 txt">
-                        <h2>Love, Rosie</h2>
+                        <h2 class="blauw">Love, Rosie</h2>
                         <h3>2014     102 min     Romantiek</h3>
 
                         <p>Van jongs af aan zijn Rosie en Alex beste vrienden. Wanneer Alex en zijn familie van Dublin naar Amerika verhuizen worden ze abrupt van elkaar gescheiden. Hun magische band blijft bestaan, maar kan hun vriendschap de jaren en kilometers overleven? En zullen ze alles op het spel zetten voor echte liefde?</p>
                     
-                        <h4>Regisseur: Christian Ditter</h4>
-                        <h4>Hoofdrollen: Lily Collins, Sam Claffin</h4>
+                        <h4 class="blauw">Regisseur: Christian Ditter</h4>
+                        <h4 class="blauw">Hoofdrollen: Lily Collins, Sam Claffin</h4>
                     
                         <button type="button" class="btn btn-dark float-right">Nu Kopen</button>
                     </div>
@@ -96,6 +117,11 @@
             <div class="col-12 col-md-11">
                 <article>
                 <div class="row">
+                    <!--Foto klein scherm-->
+                    <div class="col-12 col-md-5 d-md-none">
+                        <img src="./images/thewolfofwallstraat.jpg" class="img-fluid mx-auto d-block small" alt="The Wolf of Wall Street">
+                    </div>
+                    <!--Tekst-->
                     <div class="col-12 col-md-6 txt">
                         <h2>The Wolf of Wall Street</h2>
                         <h3>2013     172 min     Drama, misdaad, komedie</h3>
@@ -107,8 +133,8 @@
                     
                         <button type="button" class="btn btn-light float-right">Nu kopen</button>
                     </div>
-
-                    <div class="col-12 col-md-5">
+                    <!--Foto groot scherm-->
+                    <div class="col-12 col-md-5 d-none d-sm-block">
                         <img src="./images/thewolfofwallstraat.jpg" class="img-fluid float-left height" alt="The Wolf of Wall Street">
                     </div>
                 </div>
@@ -121,18 +147,24 @@
             <div class="col-12 col-md-11">
                 <article>
                 <div class="row">
-                    <div class="col-12 col-md-5">
+                    <!--Foto groot scherm-->
+                    <div class="col-12 col-md-5 d-none d-sm-block">
                         <img src="./images/thegreenmile.jpg" class="img-fluid float-right height" alt="The Green Mile">
                     </div>
+                    <!--Foto klein scherm-->
+                    <div class="col-12 col-md-5 d-md-none">
+                        <img src="./images/thegreenmile.jpg" class="img-fluid mx-auto d-block small" alt="The Green Mile">
+                    </div>
                     
+                    <!--Tekst-->
                     <div class="col-12 col-md-6 txt">
-                        <h2>The Green Mile</h2>
+                        <h2 class="blauw">The Green Mile</h2>
                         <h3>1999     189 min     Drama, Fantasie</h3>
 
                         <p>Nu Paul Edgecomb zijn dagen slijt in een bejaardentehuis, kijkt hij terug op zijn leven als gevangenisbewaker. Jarenlang heeft hij dienst gedaan in de ‘Dodengang’ van de Cold Mountain gevangenis. Paul denkt vooral terug aan 1935. Ten tijde van de Grote Depressie ontwikkelde Edgecomb een bijzondere band met één van de gevangenen. De zwarte reus John Coffey werd beschuldigd van de verkrachting en de moord op twee kleine meisjes. Er was alleen iets heel bijzonders met hem aan de hand…</p>
                     
-                        <h4>Regisseur: Frank Darabont</h4>
-                        <h4>Hoofdrollen: Tom Hanks, David Morse, Clarke Duncan</h4>
+                        <h4 class="blauw">Regisseur: Frank Darabont</h4>
+                        <h4 class="blauw">Hoofdrollen: Tom Hanks, David Morse, Clarke Duncan</h4>
                     
                         <button type="button" class="btn btn-dark float-right">Nu kopen</button>
                     </div>
@@ -145,7 +177,11 @@
             <div class="col-12 col-md-11">
                 <article>
                 <div class="row">
-                    
+                    <!--Foto klein scherm-->
+                    <div class="col-12 col-md-5 d-md-none">
+                        <img src="./images/americanhistoryx.jpg" class="img-fluid mx-auto d-block small" alt="American History X">
+                    </div>
+                    <!--Tekst-->
                     <div class="col-12 col-md-6 txt">
                         <h2>American History X</h2>
                         <h3>1998     119 min     Misdaad, drama</h3>
@@ -157,8 +193,8 @@
                     
                         <button type="button" class="btn btn-light float-right">Nu kopen</button>
                     </div>
-
-                    <div class="col-12 col-md-5">
+                    <!--Foto groot scherm-->
+                    <div class="col-12 col-md-5 d-none d-sm-block">
                         <img src="./images/americanhistoryx.jpg" class="img-fluid float-left height" alt="American History X">
                     </div>
                 </div>
